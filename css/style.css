@@ -39,21 +39,28 @@
 	color: rgb(87, 87, 87);
 }
 
-
-
 .container {float: left;
 	margin-bottom: 3em;
 }
 
+.search-container {margin-top: 12px;
+	float: right;
+}
+
+
 h1 {font-family: Arial;
 	font-size: 18px;
+	font-style: bold;
 	text-transform: uppercase;
+	text-align: center;
+	padding: 20px;
 	color: rgb(129, 129, 224)
 }
 
 h2 {font-family: Arial;
 	font-size: 16px;
 	text-transform: capitalize;
+	padding-bottom: 10px;
 	color: rgb(152, 152, 190)
 }
 
@@ -83,13 +90,14 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-	background-color: rgb(141, 106, 106);
-	.btn-medium:hover {
-		opacity: 1;
-		text-decoration: none;
-		color: rgb(87, 87, 87);
-	}
+	background-color: rgb(141, 106, 106);}
+	
+.btn-medium:hover {
+	opacity: 1;
+	text-decoration: none;
+	color: rgb(87, 87, 87);
 }
+
 
 li.dropdown {
   display: inline-block;
@@ -119,6 +127,21 @@ li.dropdown {
   display: block;
 }
 
-.search-container {margin-top: 12px;
-	float: right;}
+#content-wrap {
+	padding-bottom: 2.5rem;    /* Footer height */
+  }  
+
+.footer {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	padding: 1rem;
+	height: 2.5rem; 
+	background-color: #efefef;
+	text-align: center;
+  }
+
+
 	
